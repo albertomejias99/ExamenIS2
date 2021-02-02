@@ -38,12 +38,12 @@ public class Main {
         supermercado.mark();
         System.out.println("----------------------------------------------");
         
-        supermercado.sort(alfabetico);      //Aquí situa ropa antes que tomate
+        supermercado.sort(alfabetico);      //Aquí situa ropa antes que tomate porque ropa está dentro de supermercado
         supermercado.sort(categoria);       //Aquí sin embargo no
         System.out.println("----------------------------------------------");
         
-        miLista.sort(alfabetico);
-        miLista.sort(categoria);
+        miLista.sort(alfabetico);           //Cabe recordar que ropa no está en miLista 
+        miLista.sort(categoria);            //sino que está dentro de supermercado.
     }
     
 }
